@@ -1,11 +1,12 @@
 {
-  "name": "react-boilerplate",
+  "name": "markdown-previewer",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "karma start",
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "webpack -p"
   },
   "author": "Bahaa",
   "license": "MIT ",
@@ -13,8 +14,10 @@
     "axios": "^0.16.1",
     "expect": "^1.20.2",
     "express": "^4.15.2",
+    "marked": "^0.3.6",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
+    "react-render-html": "^0.1.6",
     "react-router": "^2.0.0"
   },
   "devDependencies": {
